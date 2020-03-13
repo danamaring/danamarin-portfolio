@@ -9,18 +9,20 @@
   //header
   //logo
   #logo-header {
-      width: 35%;
-      float: right;
-      margin-right: 16%;
-      margin-top: -15%;
-      margin-bottom: 15%;
-      
-      img {
-        -webkit-box-shadow: -9px 11px 42px -19px rgba(0,0,0,1);
-        -moz-box-shadow: -9px 11px 42px -19px rgba(0,0,0,1);
-        box-shadow: -9px 11px 42px -19px rgba(0,0,0,1);
-      }
+      width: 25%;
+      margin-right: auto;
+      margin-left: auto;
+      margin-top: 5%;
   }
+
+  #logo-desktop {
+      display: none;
+  }
+
+  #logo-mobile {
+    display: block;
+}
+
   //social media
   #social-media {
       display: none;
@@ -125,7 +127,25 @@
 @media screen and (min-width: 48em) {
     #logo-header {
         width: 19%;
+        float: right;
+        margin-right: 16%;
+        margin-top: -15%;
+        margin-bottom: 15%;
+
+        img {
+            -webkit-box-shadow: -9px 11px 42px -19px rgba(0,0,0,1);
+            -moz-box-shadow: -9px 11px 42px -19px rgba(0,0,0,1);
+            box-shadow: -9px 11px 42px -19px rgba(0,0,0,1);
+          }
     }
+
+    #logo-desktop {
+        display: block;
+    }
+  
+    #logo-mobile {
+      display: none;
+  }
 
     #IM {
         font-size: 5em;
