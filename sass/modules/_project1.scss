@@ -1,0 +1,192 @@
+//header - hero background
+#header-project1 {
+    background-color: $mixtape;
+}
+
+//hero text
+#hero-text {
+    h1 {
+        font-family: $text;
+        font-size: 4em;
+        color: $yellow;
+        font-weight: 600;
+        margin-left: 5%;
+        margin-top: 15%;
+    }
+
+    h3 {
+        font-family: $text;
+        font-weight: 100;
+        margin-left: 5%;
+        color: white;
+        margin-top: 10px;
+        padding-bottom: 15%;
+        width: 40%;
+    }
+}
+
+//hero mockup
+#hero-img {
+    width: 55%;
+    position: absolute;
+    margin-top: -25%;
+    margin-left: 42%;
+}
+
+//the situation
+#situation {
+    h1 {
+        font-family: $text;
+        font-weight: 700;
+        margin-left: 5%;
+        padding-top: 24%;
+        font-size: 3em;
+        margin-bottom: 5%;
+    }
+
+    p {
+        font-family: $text;
+        font-weight: 400;
+        margin-left: 10%;
+        width: 80%;
+    }
+}
+
+//the solution
+#solution {
+    h1 {
+        font-family: $text;
+        font-weight: 700;
+        margin-left: 5%;
+        margin-top: 20%;
+        font-size: 3em;
+        margin-bottom: 5%;
+        width: 80%;
+    }
+
+    p {
+        font-family: $text;
+        font-weight: 400;
+        margin-left: 10%;
+        width: 80%;
+    }
+
+    //visit website button
+    button {
+        border: solid thin $mixtape;
+        padding: 5px 20px;
+        background-color: transparent;
+        margin-left: 10%;
+        margin-top: 5%;
+
+        a {
+            text-decoration: none;
+            color: $mixtape;
+            font-family: $text;
+            font-weight: 300;
+            font-size: 1.5em;
+        }
+    }
+}
+
+//footer mockups
+#mockups {
+    background: linear-gradient(to bottom, white 30%, $yellow 30%);
+    margin-top: 15%;
+
+    img {
+        width: 80%;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 10%;
+    }
+}
+
+//mockup buttons
+#mockup-buttons {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding-bottom: 10%;
+
+    #button-projects {
+        border: solid thin white;
+        padding: 5px 30px;
+        background-color: transparent;
+        margin-top: 5%;
+
+        a {
+            text-decoration: none;
+            color: white;
+            font-family: $text;
+            font-weight: 300;
+            font-size: 1.5em;
+        }
+    }
+
+    #button-contact {
+        border: transparent;
+        padding: 5px 30px;
+        background-color: $yellow;
+        margin-left: 10%;
+        margin-top: 5%;
+        -webkit-box-shadow: 0 10px 40px -12px rgba(0,0,0,1);
+        -moz-box-shadow: 0 10px 40px -12px rgba(0,0,0,1);
+        box-shadow: 0 10px 40px -12px rgba(0,0,0,1);
+
+        a {
+            text-decoration: none;
+            color: white;
+            font-family: $text;
+            font-weight: 500;
+            font-size: 1.5em;
+        }
+    }
+}
+
+//footer
+footer {
+    margin-top: 10%;
+    background-color: $mixtape;
+
+    img {
+        width: 20%;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        padding-top: 5%;
+    }
+
+    nav {
+        margin-top: 10%;
+        margin-bottom: 5%;
+        ul {
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+
+            li {
+                padding: 0 15px;
+
+                a {
+                    font-family: $text;
+                    font-weight: 500;
+                    color: white;
+                    text-decoration: none;
+                }
+            }
+        }
+        
+    }
+
+    h3 {
+        color: rgba(255, 255, 255, 0.411);
+        font-family: $text;
+        font-weight: 100;
+        font-size: 0.7em;
+        text-align: center;
+        padding: 10px 0;
+    }
+}
+

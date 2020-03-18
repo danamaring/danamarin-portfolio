@@ -1,0 +1,64 @@
+//body
+#body-projects {
+    background-color: $blue;
+}
+
+
+//title
+
+#title-projects {
+    h1 {
+        color: $yellow;
+        font-family: $miller;
+        font-weight: 600;
+        font-size: 5em;
+        margin-left: 3%;
+        margin-top: 10%;
+    }
+
+    p {
+        width: 275px;
+          font-family: $text;
+          font-weight: 100;
+          color: white;
+          font-size: 0.8em;
+          margin-left: 5%;
+          line-height: 18px;
+          margin-top: 5%;
+          width: 70%;
+    }
+
+    button {
+        border: solid thin white;
+        padding: 5px 30px;
+        background-color: transparent;
+        margin-left: 5%;
+        margin-top: 10%;
+        margin-bottom: 10%;
+
+      a {
+          text-decoration: none;
+          color: white;
+          font-family: $text;
+          font-weight: 100;
+          font-size: 1.5em;
+      }
+    }
+}
+
+//projects flex-box
+#projects {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    a {
+        img {
+            width: 70%;
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            margin-bottom: 5%;
+        }
+    }
+}
