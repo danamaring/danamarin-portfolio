@@ -1,6 +1,16 @@
+//--------------------->MOBILE <= 22.8185nm
+
 //header - hero background
 #header-project1 {
     background-color: $mixtape;
+}
+
+//logo header
+#logo-header-white {
+    width: 25%;
+    margin-right: auto;
+    margin-left: auto;
+    padding-top: 5%;
 }
 
 //hero text
@@ -12,6 +22,7 @@
         font-weight: 600;
         margin-left: 5%;
         margin-top: 15%;
+        width: 40%;
     }
 
     h3 {
@@ -21,7 +32,7 @@
         color: white;
         margin-top: 10px;
         padding-bottom: 15%;
-        width: 40%;
+        width: 37%;
     }
 }
 
@@ -190,3 +201,365 @@ footer {
     }
 }
 
+//media query 387px ---MOBILE---
+@media screen and (min-width: 24.1875em) {
+    #situation {
+        h1 {
+            width: 40%;
+        }
+    }
+}
+
+//media query 445px ---MOBILE---
+@media screen and (min-width: 27.8125em) {
+    #logo-header-white {
+        width: 18%;
+    }
+
+    #hero-img {
+        width: 50%;
+        margin-top: -21%;
+    }
+
+    #solution {
+        h1 {
+            width: 60%;
+        }
+    }
+}
+
+//media query 535px ---MOBILE---
+@media screen and (min-width: 33.4375em) {
+    #hero-text {
+        h1 {
+            font-size: 5em;
+            margin-top: 10%;
+        }
+    }
+
+    footer {
+        img {
+            width: 13%;
+        }
+    }
+}
+
+//media query 665px ---TABLET---
+@media screen and (min-width: 41.5625em) {
+    #logo-header-white {
+        width: 13%;
+        padding-top: 3%;
+    }
+
+    #hero-text {
+        h1 {
+            margin-top: 6%;
+        }
+
+        h3 {
+            width: 30%;
+        }
+    }
+
+    #hero-img {
+        margin-top: -16%;
+    }
+
+    #mockups {
+        img {
+            margin-bottom: 5%;
+        }
+    }
+}
+
+//media query 768px ---TABLET---
+@media screen and (min-width: 48em) {
+    #logo-header-white {
+        width: 11%;
+    }
+
+    #hero-img {
+        margin-top: -12%;
+    }
+
+    #hero-text {
+        h1 {
+            margin-top: 8%;
+        }
+
+        h3 {
+            padding-bottom: 12%;
+        }
+    }
+
+    #situation {
+        h1 {
+            font-size: 4em;
+        }
+
+        p {
+            margin-top: 10%;
+            width: 50%;
+        }
+    }
+
+    #solution {
+        h1 {
+            font-size: 4em;
+            margin-top: 15%;
+            width: 50%;
+        }
+
+        p {
+            margin-top: 10%;
+            width: 50%;
+        }
+    }
+
+    footer {
+        nav {
+            ul {
+                li {
+                    padding: 0 5%;
+                }
+            }
+        }
+    }
+}
+
+//media query 900px ---TABLET---
+@media screen and (min-width: 56.25em) {
+    #hero-img {
+        margin-top: -6%;
+        width: 45%;
+    }
+
+    #hero-text {
+        h1 {
+            font-size: 6em;
+        }
+
+        h3 {
+            font-size: 1.3em;
+            padding-bottom: 7%;
+        }
+    }
+
+    #situation {
+        h1 {
+            padding-top: 30%;
+            margin-left: 10%;
+        }
+
+        p {
+            margin-left: 20%;
+            line-height: 1.5em;
+        }
+    }
+
+    #solution {
+        h1 {
+            margin-left: 10%;
+        }
+
+        p {
+            margin-left: 20%;
+            line-height: 1.5em;
+        }
+
+        button {
+            margin-left: 20%;
+        }
+    }
+
+    #mockup-buttons {
+        padding-bottom: 5%;
+
+        #button-projects {
+            padding: 5px 45px;
+        }
+
+        #button-contact {
+            padding: 5px 45px;
+        }
+    }
+
+    footer {
+        img {
+            width: 10%;
+        }
+    }
+}
+
+//media query 1024px ---TABLET---
+@media screen and (min-width: 64em) {
+    #logo-header-white {
+        width: 9%;
+    }
+
+    #hero-text {
+        h1 {
+            margin-left: 8%;
+        }
+        h3 {
+            margin-left: 8%;
+        }
+    }
+}
+
+//media query 1120px ---DESKTOP---
+@media screen and (min-width: 70em) {
+    #situation {
+        h1 {
+            margin-left: 15%;
+        }
+
+        p {
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+        }
+    }
+
+    #solution {
+        h1 {
+            margin-left: 15%;
+        }
+
+        p {
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        button {
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+        }
+    }
+
+    #mockups {
+        img {
+            max-width: 100%;
+        }
+    }
+}
+
+//media query 1218px ---DESKTOP---
+@media screen and (min-width: 76.125em) {
+    #situation {
+        h1 {
+            width: 20%;
+        }
+    }
+
+    #solution {
+        h1 {
+            width: 20%;
+        }
+    }
+
+    #mockups {
+        img {
+            width: 75%;
+        }
+    }
+
+    footer {
+        h3 {
+            padding: 20px 0;
+            font-size: 1em;
+        }
+        nav {
+            ul {
+                li {
+                    padding: 0 4%;
+                }
+            }
+        }
+    }
+}
+
+//media query 1400px ---DESKTOP---
+@media screen and (min-width: 87.5em) {
+    #logo-header-white {
+        width: 8%;
+    }
+
+    #hero-text {
+        h1 {
+            font-size: 7em;
+        }
+    }
+
+    #hero-img {
+        width: 40%;
+        margin-top: -16%;
+        margin-left: 50%;
+    }
+
+    #situation {
+        h1 {
+            font-size: 5em;
+            padding-top: 17%;
+        }
+
+        p {
+            margin-top: 7%;
+        }
+    }
+
+    #solution {
+        h1 {
+            font-size: 5em;
+        }
+
+        p {
+            margin-top: 7%;
+        }
+    }
+
+    #mockups {
+        img {
+            width: 70%;
+        }
+    }
+
+    footer {
+        nav {
+            margin-top: 8%;
+
+            ul {
+                li {
+                    a{
+                        font-size: 1.3em;
+                    }
+                }
+            }
+        }
+    }
+}
+
+//media query 1560px ---DESKTOP---
+@media screen and (min-width: 97.5em) {
+    #hero-text {
+        h3 {
+            margin-top: 1%;
+            padding-bottom: 3%;
+        }
+    }
+
+    #situation {
+        p {
+            width: 40%;
+        }
+    }
+
+    #solution {
+        p {
+            width: 40%;
+        }
+    }
+
+}
