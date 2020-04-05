@@ -1,49 +1,17 @@
-version: "3"
-
+version: "3.7"
 services:
   php:
-    build: .docker/php
-    depends_on:
-      - mysql
-    ports:
-      - 8090:80
+    build: ./.docker/php/
     volumes:
       - ./:/var/www/html/
-    environment:
-      IDP_ENVIRONMENT: docker
-
-    # email:
-    #   image: mailhog/mailhog
-    #   ports:
-    #     - 1025:1025
-    #     - 8025:8025
-
-  mysql:
-    image: mariadb:10.3
-    volumes:
-      - mysql:/var/lib/mysql
-      - ./db:/docker-entrypoint-initdb.d
-    restart: always
     ports:
-      - 2233:3306
-    environment:
-      TZ: America/Toronto
-      MYSQL_DATABASE: db_sageComm
-      MYSQL_USER: docker_u
-      MYSQL_PASSWORD: docker_p
-      MYSQL_ROOT_PASSWORD: root
+      - 2233:80
 
-  phpmyadmin:
-    image: phpmyadmin/phpmyadmin
-    restart: always
-    depends_on:
-      - mysql
+  email:
+    image: mailhog/mailhog
     ports:
-      - 8091:80
-    environment:
-      PMA_USER: docker_u
-      PMA_PASSWORD: docker_p
-      PMA_HOSTS: mysql
+      - 8899:8899
+      - 7788:7788
 
 volumes:
   mysql:

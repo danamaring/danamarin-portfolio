@@ -54,17 +54,18 @@
                 You can also sent me a direct e-mail to dana.magarc@gmail.com
             </p>
         </div>
+        
         <form action="mail.php" method="POST">
-            <!-- <label for="name">Your name</label> -->
-            <input type="text" name="name" id="name" placeholder="Your name">
+            <label for="name"></label>
+            <input type="text" name="name" id="name" placeholder="Your name" required>
 
-            <!-- <label for="email">Your e-mail</label> -->
-            <input type="email" name="email" placeholder="Your e-mail">
+            <label for="email"></label>
+            <input type="text" name="email" placeholder="Your e-mail" required>
 
-            <!-- <label for="message">Your message</label> -->
-            <textarea name="message" id="message" placeholder="Your message"></textarea>
+            <label for="message"></label>
+            <textarea name="message" id="message" placeholder="Your message" required></textarea>
 
-            <button type="submit" name="submit" value="send">ready!</button>
+            <button type="submit" name="submit" value="send" id="submit">ready!</button>
         </form>
     </main>
     <!-- Footer -->
