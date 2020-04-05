@@ -84,9 +84,25 @@
     }
 }
 
+#single-vertical-img {
+    img {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 40%;
+        margin-top: 5%;
+    }
+}
+
 .long-title {
     h1 {
         font-size: 2.8em !important;
+    }
+}
+
+.thermo-hero {
+    h1 {
+        font-size: 2em !important;
     }
 }
 
@@ -126,6 +142,15 @@
             font-size: 1.5em;
         }
     }
+
+    .mixtape-button:hover {
+        background-color: $mixtape;
+        transition: ease-in 0.2s;
+        cursor: pointer;
+        a {
+            color: white !important;
+        }
+    }
 }
 
 #horizontal-img {
@@ -156,6 +181,7 @@
     img {
         width: 50% !important;
         margin-bottom: 0 !important;
+        max-width: 100% !important;
     }
 }
 
@@ -249,6 +275,10 @@
     }
 }
 
+.regenx {
+    width: 40% !important;
+}
+
 //media query 387px ---MOBILE---
 @media screen and (min-width: 24.1875em) {
     #situation {
@@ -303,6 +333,12 @@
             margin-top: 5% !important;
         }
 
+    }
+
+    #single-vertical-img {
+        img {
+            width: 12em;
+        }
     }
 
     #horizontal-img {
@@ -473,6 +509,10 @@
     #gravity-devices1 {
         width: 60% !important;
     }
+
+    .regenx {
+        margin-top: -23% !important;
+    }
 }
 
 //media query 1024px ---TABLET---
@@ -487,6 +527,12 @@
         }
         h3 {
             margin-left: 8%;
+        }
+    }
+
+    .thermo-hero {
+        h1 {
+            font-size: 5em !important;
         }
     }
 }
@@ -526,6 +572,12 @@
     #mockups {
         img {
             max-width: 100%;
+        }
+    }
+
+    #single-vertical-img {
+        img {
+            width: 14em;
         }
     }
 }
@@ -615,7 +667,13 @@
 
         p {
             margin-top: 7%;
-            width: 35em;
+            width: 35em !important;
+        }
+    }
+
+    .large-horizontal-img {
+        img {
+            width: 50% !important;
         }
     }
 
@@ -626,7 +684,7 @@
 
         p {
             margin-top: 7%;
-            width: 35em;
+            width: 35em !important;
         }
     }
 
@@ -652,6 +710,17 @@
 
     #gravity-devices1 {
         width: 33em !important;
+    }
+
+    .regenx {
+        width: 27% !important;
+    }
+
+    #single-vertical-img {
+        img { 
+            width: 16em;
+        }
+
     }
 }
 
@@ -684,16 +753,19 @@
     background-color: $thermo;
 }
 
-.thermo-hero {
-    h1 {
-        font-size: 2em !important;
-    }
-}
-
 #thermo-button {
     border: solid thin $thermo !important;
     a {
         color: $thermo !important;
+    }
+}
+
+#thermo-button:hover {
+    background-color: $thermo;
+    transition: ease-in 0.2s;
+    cursor: pointer;
+    a {
+        color: white !important;
     }
 }
 
@@ -723,6 +795,15 @@
     }
 }
 
+#webike-button:hover {
+    background-color: $webike;
+    transition: ease-in 0.2s;
+    cursor: pointer;
+    a {
+        color: white !important;
+    }
+}
+
 .webike-footer {
     background-color: $webike !important;
 }
@@ -742,6 +823,15 @@
     border: solid thin $cure !important;
     a {
         color: $cure !important;
+    }
+}
+
+#cure-button:hover {
+    background-color: $cure;
+    transition: ease-in 0.2s;
+    cursor: pointer;
+    a {
+        color: white !important;
     }
 }
 
@@ -774,6 +864,15 @@
     }
 }
 
+#chatapp-button:hover {
+    background-color: $chatapp;
+    transition: ease-in 0.2s;
+    cursor: pointer;
+    a {
+        color: white !important;
+    }
+}
+
 .chatapp-footer {
     background-color: $chatapp !important;
 }
@@ -794,6 +893,15 @@
     }
 }
 
+#couples-button:hover {
+    background-color: $couples;
+    transition: ease-in 0.2s;
+    cursor: pointer;
+    a {
+        color: white !important;
+    }
+}
+
 .couples-footer {
     background-color: $couples !important;
 }
@@ -807,6 +915,15 @@
     border: solid thin $access !important;
     a {
         color: $access !important;
+    }
+}
+
+#access-button:hover {
+    background-color: $access;
+    transition: ease-in 0.2s;
+    cursor: pointer;
+    a {
+        color: white !important;
     }
 }
 
@@ -826,12 +943,17 @@
     }
 }
 
-.regenx-footer {
-    background-color: $regenx !important;
+#regenx-button:hover {
+    background-color: $regenx;
+    transition: ease-in 0.2s;
+    cursor: pointer;
+    a {
+        color: white !important;
+    }
 }
 
-.regenx {
-    width: 40% !important;
+.regenx-footer {
+    background-color: $regenx !important;
 }
 
 #full-width {
@@ -853,6 +975,40 @@
     }
 }
 
+#cigarrette-button:hover {
+    background-color: $cigarrette;
+    transition: ease-in 0.2s;
+    cursor: pointer;
+    a {
+        color: white !important;
+    }
+}
+
 .cigarrette-footer {
     background-color: $cigarrette !important;
+}
+
+//------------------------------> SPORT CHEK -----
+.sports_header {
+    background-color: $sports !important;
+}
+
+#sports-button {
+    border: solid thin $sports !important;
+    a {
+        color: $sports !important;
+    }
+}
+
+#sports-button:hover {
+    background-color: $sports;
+    transition: ease-in 0.2s;
+    cursor: pointer;
+    a {
+        color: white !important;
+    }
+}
+
+.sports-footer {
+    background-color: $sports !important;
 }

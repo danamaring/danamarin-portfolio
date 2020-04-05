@@ -35,6 +35,7 @@
         margin-left: 5%;
         margin-top: 3em;
         margin-bottom: 10%;
+        cursor: pointer;
 
       a {
           text-decoration: none;
@@ -43,6 +44,15 @@
           font-weight: 400;
           font-size: 1.5em;
       }
+    }
+
+    button:hover {
+        background-color: $yellow;
+        transition: ease-in 0.2s;
+
+        a {
+            color: white;
+        }
     }
 }
 
@@ -96,6 +106,8 @@
 
     }
 
+    
+
     #project-4 {
         background-image: url(../images/thumbnail-mobile-chatapp.jpg);
         width: 100%;
@@ -110,6 +122,8 @@
         }
 
     }
+
+    
 
     #project-5 {
         background-image: url(../images/thumbnail-mobile-couples_resort.jpg);
@@ -126,6 +140,8 @@
 
     }
 
+    
+
     #project-6 {
         background-image: url(../images/thumbnail-mobile-accessibility.jpg);
         width: 100%;
@@ -140,6 +156,8 @@
         }
 
     }
+
+    
 
     #project-7 {
         background-image: url(../images/thumbnail-mobile-regenx.jpg);
@@ -156,6 +174,8 @@
 
     }
 
+    
+
     #project-8 {
         background-image: url(../images/thumbnail-mobile-sportchek.jpg);
         width: 100%;
@@ -170,6 +190,8 @@
         }
 
     }
+
+    
 
     #project-9 {
         background-image: url(../images/thumbnail-mobile-mixtape.jpg);
@@ -186,6 +208,8 @@
 
     }
 
+   
+
     #project-10 {
         background-image: url(../images/thumbnail-mobile-ecigarrettes.jpg);
         width: 100%;
@@ -200,6 +224,8 @@
         }
 
     }
+
+    
 
     #more-soon {
         background-color: $yellow;
@@ -235,6 +261,27 @@
             }
         }
 
+        #project-1:hover {
+            a {
+                text-decoration: none;
+                div {
+                    background-color: #000e4fea;
+                    transition: ease-in 0.2s;
+    
+                    h1 {
+                        transition: ease-in 0.2s;
+                        display: block;
+                        font-family: $text;
+                        font-weight: 100;
+                        font-size: 2.3em;
+                        text-align: center;
+                        color: white;
+                        padding-top: 3.5em;
+                    }
+                }
+            }
+        }
+
         #project-2 {
             width: 60%;
             height: 17em;
@@ -242,6 +289,27 @@
             a {
                 div {
                     height: 17em;
+                }
+            }
+        }
+
+        #project-2:hover {
+            a {
+                text-decoration: none;
+                div {
+                    background-color: #000e4fea;
+                    transition: ease-in 0.2s;
+    
+                    h1 {
+                        transition: ease-in 0.2s;
+                        display: block;
+                        font-family: $text;
+                        font-weight: 100;
+                        font-size: 2.3em;
+                        text-align: center;
+                        color: white;
+                        padding-top: 3.5em;
+                    }
                 }
             }
         }
@@ -258,6 +326,27 @@
             }
         }
 
+        #project-3:hover {
+            a {
+                text-decoration: none;
+                div {
+                    background-color: #000e4fea;
+                    transition: ease-in 0.2s;
+    
+                    h1 {
+                        transition: ease-in 0.2s;
+                        display: block;
+                        font-family: $text;
+                        font-weight: 100;
+                        font-size: 2.3em;
+                        text-align: center;
+                        color: white;
+                        padding-top: 3.5em;
+                    }
+                }
+            }
+        }
+
         #project-4 {
             background-image: url(../images/thumbnail-medium-chatapp.jpg);
             width: 33%;
@@ -266,6 +355,27 @@
             a {
                 div {
                     height: 12em;
+                }
+            }
+        }
+
+        #project-4:hover {
+            a {
+                text-decoration: none;
+                div {
+                    background-color: #000e4fea;
+                    transition: ease-in 0.2s;
+    
+                    h1 {
+                        transition: ease-in 0.2s;
+                        display: block;
+                        font-family: $text;
+                        font-weight: 100;
+                        font-size: 1.5em;
+                        text-align: center;
+                        color: white;
+                        padding-top: 3.5em;
+                    }
                 }
             }
         }
@@ -282,6 +392,27 @@
             }
         }
 
+        #project-5:hover {
+            a {
+                text-decoration: none;
+                div {
+                    background-color: #000e4fea;
+                    transition: ease-in 0.2s;
+    
+                    h1 {
+                        transition: ease-in 0.2s;
+                        display: block;
+                        font-family: $text;
+                        font-weight: 100;
+                        font-size: 1.5em;
+                        text-align: center;
+                        color: white;
+                        padding-top: 3.5em;
+                    }
+                }
+            }
+        }
+
         #project-6 {
             // background-image: url(../images/thumbnail-accessibility.svg);
             width: 33%;
@@ -290,6 +421,27 @@
             a {
                 div {
                     height: 12em;
+                }
+            }
+        }
+
+        #project-6:hover {
+            a {
+                text-decoration: none;
+                div {
+                    background-color: #000e4fea;
+                    transition: ease-in 0.2s;
+    
+                    h1 {
+                        transition: ease-in 0.2s;
+                        display: block;
+                        font-family: $text;
+                        font-weight: 100;
+                        font-size: 1.5em;
+                        text-align: center;
+                        color: white;
+                        padding-top: 3.5em;
+                    }
                 }
             }
         }
@@ -306,6 +458,27 @@
             }
         }
 
+        #project-7:hover {
+            a {
+                text-decoration: none;
+                div {
+                    background-color: #000e4fea;
+                    transition: ease-in 0.2s;
+    
+                    h1 {
+                        transition: ease-in 0.2s;
+                        display: block;
+                        font-family: $text;
+                        font-weight: 100;
+                        font-size: 2.3em;
+                        text-align: center;
+                        color: white;
+                        padding-top: 3.5em;
+                    }
+                }
+            }
+        }
+
         #project-8 {
             // background-image: url(../images/thumbnail-sportchek.jpg);
             width: 60%;
@@ -314,6 +487,27 @@
             a {
                 div {
                     height: 17em;
+                }
+            }
+        }
+
+        #project-8:hover {
+            a {
+                text-decoration: none;
+                div {
+                    background-color: #000e4fea;
+                    transition: ease-in 0.2s;
+    
+                    h1 {
+                        transition: ease-in 0.2s;
+                        display: block;
+                        font-family: $text;
+                        font-weight: 100;
+                        font-size: 2.3em;
+                        text-align: center;
+                        color: white;
+                        padding-top: 3.5em;
+                    }
                 }
             }
         }
@@ -330,6 +524,27 @@
             }
         }
 
+        #project-9:hover {
+            a {
+                text-decoration: none;
+                div {
+                    background-color: #000e4fea;
+                    transition: ease-in 0.2s;
+    
+                    h1 {
+                        transition: ease-in 0.2s;
+                        display: block;
+                        font-family: $text;
+                        font-weight: 100;
+                        font-size: 1.5em;
+                        text-align: center;
+                        color: white;
+                        padding-top: 3.5em;
+                    }
+                }
+            }
+        }
+
         #project-10 {
             background-image: url(../images/thumbnail-medium-ecigarrettes.jpg);
             width: 33%;
@@ -338,6 +553,27 @@
             a {
                 div {
                     height: 12em;
+                }
+            }
+        }
+
+        #project-10:hover {
+            a {
+                text-decoration: none;
+                div {
+                    background-color: #000e4fea;
+                    transition: ease-in 0.2s;
+    
+                    h1 {
+                        transition: ease-in 0.2s;
+                        display: block;
+                        font-family: $text;
+                        font-weight: 100;
+                        font-size: 1.5em;
+                        text-align: center;
+                        color: white;
+                        padding-top: 3.5em;
+                    }
                 }
             }
         }
@@ -381,6 +617,16 @@
                 } 
             }
         }
+
+        #project-1:hover {
+            a {
+                div {    
+                    h1 {
+                        font-size: 3em;
+                    }
+                }
+            }
+        }
     
         #project-2 {
             background-image: url(../images/thumbnail-desktop-we_bike.jpg);
@@ -392,6 +638,16 @@
                 } 
             }
         }
+
+        #project-2:hover {
+            a {
+                div {    
+                    h1 {
+                        font-size: 3em;
+                    }
+                }
+            }
+        }
     
         #project-3 {
             background-image: url(../images/thumbnail-im_part_of_the_cure.jpg);
@@ -401,6 +657,16 @@
                     width: 100%;
                     height: 30em;
                 } 
+            }
+        }
+
+        #project-3:hover {
+            a {
+                div {    
+                    h1 {
+                        font-size: 4em;
+                    }
+                }
             }
         }
     
@@ -415,6 +681,16 @@
             }
         }
 
+        #project-4:hover {
+            a {
+                div {    
+                    h1 {
+                        font-size: 2.4em;
+                    }
+                }
+            }
+        }
+
         #project-5 {
             height: 18em;
             a {
@@ -422,6 +698,16 @@
                     width: 100%;
                     height: 18em;
                 } 
+            }
+        }
+
+        #project-5:hover {
+            a {
+                div {    
+                    h1 {
+                        font-size: 2.4em;
+                    }
+                }
             }
         }
 
@@ -435,6 +721,16 @@
             }
         }
 
+        #project-6:hover {
+            a {
+                div {    
+                    h1 {
+                        font-size: 2.4em;
+                    }
+                }
+            }
+        }
+
         #project-7 {
             background-image: url(../images/thumbnail-regenx.jpg);
             height: 22em;
@@ -443,6 +739,16 @@
                     width: 100%;
                     height: 22em;
                 } 
+            }
+        }
+
+        #project-7:hover {
+            a {
+                div {    
+                    h1 {
+                        font-size: 3em;
+                    }
+                }
             }
         }
     
@@ -457,6 +763,16 @@
             }
         }
 
+        #project-8:hover {
+            a {
+                div {    
+                    h1 {
+                        font-size: 3em;
+                    }
+                }
+            }
+        }
+
         #project-9 {
             background-image: url(../images/thumbnail-mixtape.png);
             height: 25em;
@@ -468,6 +784,16 @@
             }
         }
 
+        #project-9:hover {
+            a {
+                div {    
+                    h1 {
+                        font-size: 3em;
+                    }
+                }
+            }
+        }
+
         #project-10 {
             background-image: url(../images/thumbnail-ecigarrettes.jpg);
             height: 25em;
@@ -476,6 +802,16 @@
                     width: 100%;
                     height: 25em;
                 } 
+            }
+        }
+
+        #project-10:hover {
+            a {
+                div {    
+                    h1 {
+                        font-size: 3em;
+                    }
+                }
             }
         }
 
@@ -570,6 +906,16 @@
                 } 
             }
         }
+
+        #project-3:hover {
+            a {
+                div {    
+                    h1 {
+                        font-size: 3.5em;
+                    }
+                }
+            }
+        }
     }
 }
 
@@ -593,6 +939,16 @@
             }
         }
 
+        #project-3:hover {
+            a {
+                div {    
+                    h1 {
+                        font-size: 5em;
+                    }
+                }
+            }
+        }
+
         #project-4 {
             height: 23em;
             background-image: url(../images/thumbnail-large-chatapp.jpg);
@@ -603,6 +959,16 @@
                     width: 100%;
                     height: 23em;
                 } 
+            }
+        }
+
+        #project-4:hover {
+            a {
+                div {    
+                    h1 {
+                        font-size: 2.9em;
+                    }
+                }
             }
         }
 
@@ -619,6 +985,16 @@
             }
         }
 
+        #project-5:hover {
+            a {
+                div {    
+                    h1 {
+                        font-size: 2.9em;
+                    }
+                }
+            }
+        }
+
         #project-6 {
             height: 23em;
             background-image: url(../images/thumbnail-large-accessibility.jpg);
@@ -632,6 +1008,16 @@
             }
         }
 
+        #project-6:hover {
+            a {
+                div {    
+                    h1 {
+                        font-size: 2.9em;
+                    }
+                }
+            }
+        }
+
         #project-7 {
             height: 26em;
             background-image: url(../images/thumbnail-large-regenx.jpg);
@@ -640,7 +1026,7 @@
             a {
                 div {
                     width: 100%;
-                    height: 23em;
+                    height: 26em;
                 } 
             }
         }

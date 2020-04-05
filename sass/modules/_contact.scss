@@ -81,6 +81,13 @@
           margin-bottom: 15%;
           cursor: pointer;
       }
+
+      button:hover {
+        background-color: white;
+        transition: ease-in 0.3s;
+        border: transparent;
+        color: $blue;
+    }
   }
 
   #footer-index {

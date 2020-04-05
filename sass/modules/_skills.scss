@@ -80,6 +80,7 @@
     margin-right: auto;
     margin-top: 17%;
     padding: 10px 20px;
+    cursor: pointer;
 
 
     a{
@@ -91,6 +92,16 @@
         font-size: 1.3em;
     }
 
+}
+
+#resume-button:hover {
+    background-color: $blue;
+    transition: ease-in 0.3s;
+    border: transparent;
+    a {
+        color: $yellow;
+        font-weight: 200;
+    }
 }
 
 //footer
