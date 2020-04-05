@@ -1,0 +1,150 @@
+//--------------------->MOBILE <= 22.8185nm
+
+//bcg
+.body-contact {
+    background-color: $blue !important;
+    background-image: none;
+  }
+
+  #contact-hero {
+      h1 {
+          font-family: $miller;
+          color: $yellow;
+          margin-left: 5%;
+          font-weight: 700;
+          font-size: 5em;
+          margin-top: 10%;
+      }
+
+      p {
+          width: 70%;
+          text-align: left;
+          color: white;
+          font-family: $text;
+          font-weight: 300;
+          margin-top: 5%;
+          margin-bottom: 10%;
+          line-height: 1em;
+          font-size: 1em;
+          margin-left: 5%;
+      }
+  }
+
+  form {
+      input, textarea {
+          display: block;
+          margin-left: auto;
+          margin-right: auto;
+          margin-top: 2em;
+          width: 70%;
+          height: 2em;
+          color: $blue;
+          font-family: $text;
+          font-size: 1em;
+          font-weight: 400;
+          padding-left: 1em;
+          border: none;
+      }
+
+      textarea {
+          height: 10em !important;
+          resize: none;
+      }
+
+      input::placeholder {
+        font-family: $text;
+        font-weight: 200;
+        color: $blue;
+        font-size: 1em;
+      }
+
+      textarea::placeholder {
+        font-family: $text;
+        font-weight: 200;
+        color: $blue;
+        font-size: 1em;
+      }
+
+      button {
+          background-color: $yellow;
+          color: white;
+          font-family: $text;
+          font-weight: 700;
+          text-align: center;
+          padding: 0.5em 3em;
+          display: block;
+          margin-left: auto;
+          margin-right: auto;
+          border: none;
+          margin-top: 2em;
+          font-size: 1em;
+          margin-bottom: 15%;
+          cursor: pointer;
+      }
+  }
+
+  #footer-index {
+      h3 {
+          display: none !important;
+      }
+  }
+
+  //media query 650px 
+@media screen and (min-width: 40.625em) {
+    #contact-hero {
+        h1 {
+            font-size: 7em;
+        }
+
+        p {
+            width: 23em;
+        }
+    }
+}
+
+ //media query 768px 
+ @media screen and (min-width: 48em) {
+    .logo-contact {
+        margin-top: -15% !important;
+    }
+
+    form {
+        input, textarea {
+            width: 32em !important;
+        }
+    }
+ }
+
+ //media query 1024px 
+ @media screen and (min-width: 64em) {
+    .social-contact {
+        margin-top: 0 !important;
+    }
+ }
+
+ //media query 1280px 
+ @media screen and (min-width: 80em) {
+    .body-contact {
+        background-image: url("../images/contact-bcg.png");
+        background-color: $blue;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center center;
+    }
+
+    #contact-hero {
+        h1 {
+            font-size: 9em;
+            margin-top: 7%;
+        }
+
+        p {
+            margin-top: 1em;
+        }
+    }
+
+    .logo-contact {
+        margin-top: -12% !important;
+        width: 14%;
+    }
+ }

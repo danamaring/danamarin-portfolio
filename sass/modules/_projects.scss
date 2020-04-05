@@ -19,28 +19,28 @@
     p {
         width: 275px;
           font-family: $text;
-          font-weight: 100;
+          font-weight: 400;
           color: white;
           font-size: 0.8em;
           margin-left: 5%;
           line-height: 18px;
-          margin-top: 5%;
+          margin-top: 3em;
           width: 70%;
     }
 
     button {
         border: solid thin white;
         padding: 5px 30px;
-        background-color: transparent;
+        background-color: $blue;
         margin-left: 5%;
-        margin-top: 10%;
+        margin-top: 3em;
         margin-bottom: 10%;
 
       a {
           text-decoration: none;
           color: white;
           font-family: $text;
-          font-weight: 100;
+          font-weight: 400;
           font-size: 1.5em;
       }
     }
@@ -358,6 +358,12 @@
             }
         }
     }
+
+    #title-projects {
+        p {
+            width: 27em;
+        }
+    }
 }
 
 //media query 700px
@@ -486,6 +492,43 @@
     
 }
 
+//media query 768px
+@media screen and (min-width: 48em) {
+    .logo-box {
+        margin-top: -15% !important;
+    }
+
+    #body-projects {
+        background: linear-gradient(to right, white 60%, $blue 60%);
+    
+    }
+
+    #title-projects {
+        p {
+            color: $blue;
+        }
+    }
+}
+
+//media query 1024px
+@media screen and (min-width: 64em) {
+    #title-projects {
+        h1 {
+            font-size: 7em !important;
+            margin-left: 1em !important;
+        }
+
+        p {
+            font-size: 1em !important;
+            line-height: 1.5em !important;
+            margin-left: 11em !important;
+        }
+        button {
+            margin-left: 16em !important;
+        }
+    }
+}
+
 //media query 1200px
 @media screen and (min-width: 75em) {
     #projects {
@@ -529,6 +572,14 @@
         }
     }
 }
+
+//media query 1266px
+// @media screen and (min-width: 70.125em) {
+//     .logo-box {
+//         width: 10em !important;
+
+//     }
+// }
 
 //media query 1360px
 @media screen and (min-width: 85em) {
