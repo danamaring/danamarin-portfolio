@@ -60,6 +60,33 @@
         font-weight: 400;
         margin-left: 10%;
         width: 80%;
+        line-height: 1.4em;
+    }
+
+    //visit website button
+    button {
+        border: solid thin $mixtape;
+        padding: 5px 20px;
+        background-color: transparent;
+        margin-left: 10%;
+        margin-top: 5%;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+
+        a {
+            text-decoration: none;
+            color: $mixtape;
+            font-family: $text;
+            font-weight: 300;
+            font-size: 1.5em;
+        }
+    }
+}
+
+.long-title {
+    h1 {
+        font-size: 2.8em !important;
     }
 }
 
@@ -80,6 +107,7 @@
         font-weight: 400;
         margin-left: 10%;
         width: 80%;
+        line-height: 1.4em;
     }
 
     //visit website button
@@ -114,6 +142,13 @@
     }
 }
 
+.ipad-hand-mockup {
+    img {
+        width: 50% !important;
+        margin-bottom: 0 !important;
+    }
+}
+
 //mockup buttons
 #mockup-buttons {
     display: flex;
@@ -126,6 +161,8 @@
         padding: 5px 30px;
         background-color: transparent;
         margin-top: 5%;
+        // margin-left: 0 !important;
+        margin-right: 0 !important;
 
         a {
             text-decoration: none;
@@ -133,6 +170,7 @@
             font-family: $text;
             font-weight: 300;
             font-size: 1.5em;
+            
         }
     }
 
@@ -246,6 +284,32 @@
     .thermo-hero {
         h1 {
             font-size: 3em !important;
+        }
+    }
+
+    #gravity-devices {
+        img {
+            width: 60% !important;
+            margin-top: 5% !important;
+        }
+
+    }
+
+    #horizontal-img {
+        img {
+            width: 80%;
+            margin-top: 5%;
+            margin-bottom: 5%;
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+        }
+    }
+
+    .top-0 {
+        h1 {
+            margin-top: 0 !important;
+            padding-top: 0.5em !important;
         }
     }
 }
@@ -395,6 +459,10 @@
             width: 10%;
         }
     }
+
+    #gravity-devices1 {
+        width: 60% !important;
+    }
 }
 
 //media query 1024px ---TABLET---
@@ -485,6 +553,30 @@
             }
         }
     }
+
+    #gravity-devices {
+        img {
+            width: 45% !important;
+        }
+    }
+
+    .top-0 {
+        p {
+            margin-top: 0 !important;
+        }
+    }
+
+    .long-title {
+        h1 {
+            font-size: 4em !important;
+        }
+    }
+
+    .campaign-title {
+        h1 {
+            width: 45% !important;
+        }
+    }
 }
 
 //media query 1400px ---DESKTOP---
@@ -513,6 +605,7 @@
 
         p {
             margin-top: 7%;
+            width: 35em;
         }
     }
 
@@ -523,6 +616,7 @@
 
         p {
             margin-top: 7%;
+            width: 35em;
         }
     }
 
@@ -544,6 +638,10 @@
                 }
             }
         }
+    }
+
+    #gravity-devices1 {
+        width: 33em !important;
     }
 }
 
@@ -619,6 +717,12 @@
     background-color: $webike !important;
 }
 
+.wide {
+    h1 {
+        width: 90% !important;
+    }
+}
+
 //------------------------------> I AM PART OF THE CURE -----
 .cure_header {
     background-color: $cure !important;
@@ -637,6 +741,7 @@
 
 #mockups1 {
     width: 100%;
+    margin-top: 10%;
 }
 
 #gravity-devices1 {
