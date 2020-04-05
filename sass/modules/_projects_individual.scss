@@ -128,6 +128,16 @@
     }
 }
 
+#horizontal-img {
+    img {
+        width: 80%;
+        margin-top: 10%;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
 //#footer-projects mockups
 #mockups {
     background: linear-gradient(to bottom, white 30%, $yellow 30%);
