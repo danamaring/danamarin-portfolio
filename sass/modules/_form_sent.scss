@@ -1,0 +1,70 @@
+//body
+#message-sent {
+    background-color: $blue;
+    h1 {
+        font-family: $miller;
+        color: $yellow;
+        font-size: 5em;
+        text-align: center;
+        margin-top: 15%;
+        margin-bottom: 5%;
+        font-weight: 700;
+    }
+
+    p {
+        font-family: $text;
+        color: white;
+        width: 17em;
+        line-height: 1.5em;
+        font-size: 1em;
+        margin-bottom: 25%;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+    }
+
+    button {
+        background-color: transparent;
+        border: thin solid white;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        padding-top: 5px;
+        padding-bottom: 5px;
+
+        a {
+            text-decoration: none;
+            color: white;
+            font-family: $text;
+            font-weight: 100;
+            padding: 1em;
+            font-size: 1.5em;
+            cursor: pointer;
+        }
+    }
+
+    button:hover {
+        background-color: $yellow;
+        border: transparent;
+        transition: ease-in 0.2s;
+
+        a {
+            color: $blue;
+        }
+    }
+}
+
+ //media query 600px 
+ @media screen and (min-width: 37.5em) {
+    #message-sent {
+        h1 {
+            font-size: 8em !important;
+        }
+
+        p {
+            font-size: 1.3em !important;
+            margin-bottom: 3em;
+        }
+    }
+ }
